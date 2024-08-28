@@ -151,3 +151,37 @@ button{
     transform: translateY(4px); /* Efecto de hundimiento */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra más pequeña al presionar */
 }
+/*MODALES*/
+.my-title {
+    font-family: sans-serif;
+    src: url(../font/AvenirLTStd-Book.otf);
+    font-size: 18px;
+    color: #04082c;
+}
+
+/* Personaliza el estilo del popup */
+.my-popup {
+    background-color: #ffffff;
+    border-radius: 30px; /* Ajusta el radio de las esquinas */
+}
+
+/* Personaliza el estilo del popup */
+.modal2{
+    background-color: #ffffff;
+    border-radius: 30px; /* Ajusta el radio de las esquinas */
+}
+/* Personaliza el botón de confirmación */
+.my-confirm-button {
+    background-color: #04082c;
+    color: #fff;
+    font-family: sans-serif;
+    src: url(../font/AvenirLTStd-Book.otf);
+    font-size: 14px; 
+    padding: 10px 20px;
+    border-radius: 5px; 
+}
+
+/* Cambiar el color del botón cuando se coloca el cursor encima */
+.my-confirm-button:hover {
+    background-color: #04082c4f;
+}

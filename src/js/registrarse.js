@@ -23,7 +23,14 @@ btnRegistrar.addEventListener("click", function () {
 
         // Validar que todos los campos estén llenos
         if (!nombreUsuario || !cedulaUsuario || !emailUsuario || !contrasenaUsuario || !selectRol) {
-            mensaje.textContent = "Debe llenar todos los campos";
+            Swal.fire({
+                title: "Por favor, complete todos los campos",
+                customClass: {
+                  popup: 'my-popup',
+                  title: 'my-title',
+                  confirmButton: 'my-confirm-button'
+                }
+              });
             return;
         }
 
@@ -39,7 +46,14 @@ btnRegistrar.addEventListener("click", function () {
         const cedulaExistente = usuarios.find(user => user.cedula === cedulaUsuario);
 
         if (cedulaExistente) {
-            mensaje.textContent = "¡La cédula ya está registrada!";
+            Swal.fire({
+                title: "¡Este usuario ya está registrado!",
+                customClass: {
+                  popup: 'my-popup',
+                  title: 'my-title',
+                  confirmButton: 'my-confirm-button'
+                }
+              });
         } else {
             // Registrar el usuario si la cédula no existe
             const response = await postUsers(nombreUsuario, cedulaUsuario, emailUsuario, contrasenaUsuario, selectRol);

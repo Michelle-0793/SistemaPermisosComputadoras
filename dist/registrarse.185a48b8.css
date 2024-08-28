@@ -142,4 +142,30 @@ button {
   box-shadow: 0 2px 4px #0003;
 }
 
+.my-title {
+  src: url("AvenirLTStd-Book.a6bc3530.otf");
+  color: #04082c;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.my-popup, .modal2 {
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+.my-confirm-button {
+  color: #fff;
+  src: url("AvenirLTStd-Book.a6bc3530.otf");
+  background-color: #04082c;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.my-confirm-button:hover {
+  background-color: #04082c4f;
+}
+
 /*# sourceMappingURL=registrarse.185a48b8.css.map */

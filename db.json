@@ -1,71 +1,23 @@
 {
   "users": [
     {
-      "id": "8919",
+      "id": "e49b",
       "nombre": "Michelle López",
       "cedula": "503950473",
-      "email": "m.com",
-      "contrasena": "1234",
-      "rol": "Usuario"
-    },
-    {
-      "id": "a823",
-      "nombre": "Vanessa",
-      "cedula": "504130315",
-      "email": "v.com",
+      "email": "mich@.com",
       "contrasena": "1234",
       "rol": "Administrador"
-    }
-  ],
-  "solicitudes": [
-    {
-      "id": "3ad4",
-      "cedulaUsuario": "504130315",
-      "codigoComputadora": "PC324",
-      "sede": "sedeSantaAna",
-      "fechaSalida": "2024-08-29",
-      "fechaRegreso": "2024-09-01",
-      "estado": "Pendiente"
     },
     {
-      "id": "5295",
-      "cedulaUsuario": "504130315",
-      "codigoComputadora": "PC435",
-      "sede": "sedeNosara",
-      "fechaSalida": "2024-08-30",
-      "fechaRegreso": "2024-09-02",
-      "estado": "Pendiente"
-    },
-    {
-      "id": "83b7",
-      "cedulaUsuario": "504130315",
-      "codigoComputadora": "PC2342",
-      "sede": "sedePuntarenas",
-      "fechaSalida": "2024-08-29",
-      "fechaRegreso": "2024-09-02",
-      "estado": "Pendiente"
+      "id": "bcc8",
+      "nombre": "Vanessa Garcia",
+      "cedula": "504130315",
+      "email": "va@.com",
+      "contrasena": "1234",
+      "rol": "Usuario"
     }
   ],
-  "historial": [
-    {
-      "id": "a554",
-      "cedulaUsuario": "503950473",
-      "codigoComputadora": "PC435",
-      "sede": "sedeNosara",
-      "fechaSalida": "2024-08-28",
-      "fechaRegreso": "2024-08-30",
-      "estado": "Aceptada"
-    }
-  ],
-  "solicitudesAceptadas": [
-    {
-      "id": "a554",
-      "cedulaUsuario": "503950473",
-      "codigoComputadora": "PC435",
-      "sede": "sedeNosara",
-      "fechaSalida": "2024-08-28",
-      "fechaRegreso": "2024-08-30",
-      "estado": "Aceptada"
-    }
-  ]
+  "solicitudes": [],
+  "historial": [],
+  "solicitudesAceptadas": []
 }
