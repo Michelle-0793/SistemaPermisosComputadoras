@@ -1,0 +1,448 @@
+body{
+    margin: 0;
+}
+header{
+    display: grid;
+    grid-template-columns: 300px 700px 300px;
+    background-color: #04082c;
+    align-items: center;
+    width: auto;
+    height: 110px;
+    text-align: center;
+    justify-content: center;
+}
+.imgLogo{
+    width: auto;
+    height: 70px;
+}
+/*
+.divLogo{
+    border: yellow;
+    border-width: 2px;
+    border-style: solid;
+}
+.divTituloRegistro{
+    border: rgb(81, 164, 219);
+    border-width: 2px;
+    border-style: solid; 
+}
+.divBtnVerHistorial{
+    border: rgb(20, 218, 53);
+    border-width: 2px;
+    border-style: solid; 
+}
+*/
+h3{
+    color: #ffffff;
+    font-family: sans-serif;
+    src: url(../font/AvenirLTStd-Book.otf);
+    font-size: 25px;
+    text-align: center;
+}
+.inputRegistro{
+    height:add(5rem, input-height-border);
+    line-height:1.25;
+    padding:3rem;
+    padding-top:1.625rem;
+    padding-block:.625rem;
+    height:30px;
+    width: 160px;
+    transform:scale(.85) translateY(-.5rem) translateX(.15rem);
+    color:gray-300;
+    transition: opacity .1s ease-in-out, transform .1s ease-in-out;
+    font-size: 16px;
+    border-radius: 50px;
+    border: transparent;
+    background-color: #E3E3E3;  
+    text-align: center; 
+}
+.select{
+    height:50px;
+    width: 260px;
+    transform:scale(.85) translateY(-.5rem) translateX(.15rem);
+    color:gray-300;
+    transition: opacity .1s ease-in-out, transform .1s ease-in-out;
+    font-family: sans-serif;
+    src: url(../font/AvenirLTStd-Book.otf);
+    font-size: 16px;
+    border-radius: 50px;
+    border: transparent;
+    background-color: #E3E3E3;  
+    text-align: center; 
+}
+.textoCalendario{
+    font-family: sans-serif;
+    src: url(../font/AvenirLTStd-Book.otf);
+    font-weight: bold;
+    color: #04082c;
+    text-align: center;
+    font-family: sans-serif;
+    src: url(../font/AvenirLTStd-Book.otf);
+    font-size: 14px;
+
+}
+.divFechas{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    justify-content: center;
+}
+.divFechaSalida{
+    text-align: center;
+}
+.divFechaRegreso{
+    text-align: center;
+}
+.divAceptarTC{
+    display: grid;
+    grid-template-columns: 25px 70px 160px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.aceptarTC{
+    color: #04082c;
+    font-family: sans-serif;
+    src: url(../font/AvenirLTStd-Book.otf);
+    font-size: 14px;
+}
+.ver{
+    color: #04082c;
+    font-family: sans-serif;
+    font-weight: bold;
+    src: url(../font/AvenirLTStd-Book.otf);
+    font-size: 14px; 
+    cursor: pointer;
+    text-decoration: underline;
+}
+input[type=checkbox] + label{
+    cursor: pointer;
+}
+.divInputDatos{
+    justify-content: center;
+    text-align: center;
+}
+.terminosCondiciones{
+    font-family: sans-serif;
+    src: url(../font/AvenirLTStd-Book.otf);
+    border: transparent;
+}
+
+/*ESTILOS MODAL TÉRMINOS Y CONDICIONES*/ 
+.container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 40px auto;
+    text-align: center;
+    border: transparent;
+  }
+  .iconCerrar{
+    position: absolute; 
+    top: 30px;
+    right: 45px;
+    width: auto; 
+    height: 30px; 
+    cursor: pointer; 
+    border: none;
+  }
+  dialog {
+    max-width: 500px;
+    padding: 40px 70px;
+    background-color: #FAFAFA;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    position: relative;
+
+}
+dialog::backdrop {
+    background: rgba(227, 227, 227, 0.9);
+    border: none;
+  }
+
+.tituloVentana{
+    color: #04082c;
+    font-family: sans-serif;
+    src: url(../font/AvenirLTStd-Book.otf);
+    font-size: 23px;
+    text-align: center;  
+}
+
+.btnEnviar{
+    height:40px;
+    width: 200px;
+    border: transparent;
+    font-size: 16px;
+    border-radius: 50px;;
+    background-color: #04082c;  
+    text-align: center; 
+    color: white;
+    cursor: pointer;
+}
+/*ESTILOS BOTÓN VER HISTORIAL*/
+.btnHistorial {
+    height: 40px;
+    width: 230px;
+    border: transparent;
+    font-size: 16px;
+    border-radius: 50px;
+    background-color: #A5728A;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.1s, box-shadow 0.1s, background-color 0.3s, opacity 0.3s; /* Transiciones suaves para el efecto */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+}
+.btnHistorial:hover {
+    background-color: #8D4A6D; /* Cambia el color de fondo al pasar el cursor */
+    opacity: 0.8; /* Cambia la opacidad al pasar el cursor */
+}
+.btnHistorial:active {
+    transform: translateY(4px); /* Efecto de hundimiento */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra más pequeña al presionar */
+}
+.divBtnEnviar{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/*ESTILOS TABLA*/
+.divTabla{
+    padding: 10px;
+    overflow-x: auto; /* Permite el desplazamiento horizontal si es necesario */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    background: linear-gradient(#d1a2cb, #A5728A );
+}
+table {
+
+    color: #fff;
+    font-family: sans-serif;
+    src: url(../font/AvenirLTStd-Book.otf);
+    text-align: center;
+    font-size: 15px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin: 0 auto; 
+    padding: 0; 
+    margin-left: 10px; 
+    padding-left: 10px; 
+}
+
+thead {
+    background: rgba(29, 12, 23, 0.4);
+}
+th {
+    padding: 20px 15px ;
+    font-weight: 700;
+    font-family: sans-serif;
+    src: url(../font/AvenirLTStd-Book.otf);
+    text-transform: uppercase;
+}
+td {
+    padding: 12px;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+}
+tbody tr {
+    cursor: pointer;
+}
+tbody tr:hover {
+    background: rgba(227, 227, 227, 0.308);
+}
+.btnAceptar{
+    width: 45px;
+    height: 45px;
+    background: url(../img/aceptar.png) no-repeat center center;
+    background-size: contain;
+    text-indent: -9999px; /* Ocultar el texto del botón */
+    border: transparent;
+    cursor: pointer;
+}
+.btnRechazar{
+    width: 45px;
+    height: 45px;
+    background: url(../img/rechazar.png) no-repeat center center;
+    background-size: contain;
+    text-indent: -9999px; /* Ocultar el texto del botón */
+    border: transparent;
+    cursor: pointer;
+}
+
+
+/*MODALES*/
+
+/*MODALES*/
+.my-title {
+    font-family: sans-serif;
+    src: url(../font/AvenirLTStd-Book.otf);
+    font-size: 18px;
+    color: #04082c;
+}
+
+/* Personaliza el estilo del popup */
+.my-popup {
+    background-color: #ffffff;
+    border-radius: 30px; /* Ajusta el radio de las esquinas */
+}
+
+/* Personaliza el estilo del popup */
+.modal2{
+    background-color: #ffffff;
+    border-radius: 30px; /* Ajusta el radio de las esquinas */
+}
+/* Personaliza el botón de confirmación */
+.my-confirm-button {
+    background-color: #04082c;
+    color: #fff;
+    font-family: sans-serif;
+    src: url(../font/AvenirLTStd-Book.otf);
+    font-size: 14px; 
+    padding: 10px 20px;
+    border-radius: 5px; 
+}
+
+/* Cambiar el color del botón cuando se coloca el cursor encima */
+.my-confirm-button:hover {
+    background-color: #04082c4f;
+}
+ /* Media query para pantallas de 768px o menos */
+@media only screen and (max-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centra los elementos verticalmente en el contenedor */
+        width: 790px;
+        height: auto;
+        margin: 0;
+        text-align: center; /* Centra el texto en el header */
+    }
+
+    .imgLogo {
+        margin-top: 30px;
+        height: auto;
+        width: 200px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .divFechas {
+        display: flex;
+        flex-direction: column; /* Asegura que los elementos estén en una columna */
+        margin-top: -20px;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        margin-left: -10px;
+        
+    }
+    .inputRegistro, .select {
+        width: 80%; /* Ajusta el ancho según sea necesario */
+        max-width: 200px;
+        margin: 10px auto; /* Centra los elementos horizontalmente */
+        text-align: center;
+    }
+
+    .btnHistorial, .btnEnviar {
+        width: 80%; /* Ajusta el ancho según sea necesario */
+        max-width: 200px;
+        margin: 10px auto; /* Centra los botones horizontalmente */
+        font-size: 14px;
+        height: 35px;
+        display: flex;
+        align-items: center; /* Centra el texto verticalmente */
+        justify-content: center; /* Centra el texto horizontalmente */
+    }
+    .container {
+ width: 400px;
+ text-align: center;
+
+      }
+
+    .divTabla {
+        padding: 10px;
+        display: flex;
+        flex-direction: column; /* Asegura que los elementos de la tabla estén en una columna */
+        align-items: center; /* Centra la tabla horizontalmente */
+        width: 100%;
+    }
+
+    table {
+        max-width: 100%; /* Ajusta la tabla al ancho del contenedor */
+        font-size: 11px; /* Reduce ligeramente el tamaño de la fuente */
+        table-layout: auto; /* Permite que la tabla ajuste el ancho de las columnas */
+    }
+
+    th, td {
+        padding: 5px;
+        text-align: center; /* Centra el contenido dentro de las celdas */
+    }
+
+    tbody tr {
+        margin-bottom: 10px; /* Espaciado entre filas */
+    }
+
+    td {
+        justify-content: center; /* Centra horizontalmente el contenido de las celdas */
+        text-align: center;
+    }
+
+    td::before {
+        content: attr(data-label);
+        flex-basis: 50%; /* Ocupa el 50% del espacio disponible */
+        font-weight: bold; /* Resalta el nombre de la columna */
+    }
+
+    td:last-child {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Agrega la línea divisoria al final de cada fila */
+    }
+}
+
+
+
+/* Media query para pantallas de 480px o menos */
+@media only screen and (max-width: 480px) {
+    .inputRegistro, .select {
+        font-size: 14px;
+        width: 90%; /* Ajusta el ancho según sea necesario */
+        max-width: 200px;
+        margin: 10px auto; /* Centra los elementos horizontalmente */
+        text-align: center;
+    }
+
+    header {
+        width: 434px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centra los elementos verticalmente */
+        text-align: center; /* Centra el texto en el header */
+    }
+
+    .divFechas {
+        display: flex;
+        flex-direction: column; /* Asegura que los elementos estén en una columna */
+        align-items: center; /* Centra los elementos horizontalmente */
+        width: 100%;
+        text-align: center;
+    }
+
+    .btnHistorial, .btnEnviar {
+        width: 90%; /* Ajusta el ancho según sea necesario */
+        max-width: 200px;
+        margin: 10px auto; /* Centra los botones horizontalmente */
+        font-size: 14px;
+        height: 35px;
+        display: flex;
+        align-items: center; /* Centra verticalmente el texto del botón */
+        justify-content: center; /* Centra horizontalmente el texto del botón */
+    }
+
+    .modalSolicitud .swal2-title {
+        font-size: 16px;
+    }
+}
+

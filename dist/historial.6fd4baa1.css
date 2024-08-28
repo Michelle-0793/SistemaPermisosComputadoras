@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+}
+
+header {
+  width: auto;
+  height: 110px;
+  text-align: center;
+  background-color: #04082c;
+  grid-template-columns: 300px 700px 300px;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+
+.btnEliminarHistorial {
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  background-color: #04082c;
+  border: #0000;
+  border-radius: 50px;
+  margin-left: 130px;
+  font-size: 16px;
+  transition: transform .1s, box-shadow .1s, background-color .3s, opacity .3s;
+  box-shadow: 0 4px 6px #0003;
+}
+
+.btnEliminarHistorial:hover {
+  opacity: .8;
+  background-color: #04082c;
+}
+
+.btnEliminarHistorial:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 4px #0003;
+}
+
+.divBusqueda {
+  justify-content: center;
+  margin-top: 20px;
+  display: flex;
+}
+
+.divBusquedaContenido {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.inputBuscar {
+  height: 30px;
+  width: 300px;
+  text-align: center;
+  background-color: #e3e3e3;
+  border: #0000;
+  border-radius: 50px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.btnBuscar {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background: url("__buscar.59dd5b4d.png") center / contain no-repeat;
+  border: #0000;
+  border-radius: 60px;
+  transition: transform .1s, box-shadow .1s, opacity .3s;
+  box-shadow: 0 4px 6px #0003;
+}
+
+.btnBuscar:hover {
+  opacity: .8;
+  filter: brightness(.8);
+}
+
+.btnBuscar:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 4px #0003;
+}
+
+.btnAceptadas {
+  height: 40px;
+  width: 230px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  background-color: #a5728a;
+  border: #0000;
+  border-radius: 50px;
+  font-size: 16px;
+  transition: transform .1s, box-shadow .1s, background-color .3s, opacity .3s;
+  box-shadow: 0 4px 6px #0003;
+}
+
+.btnAceptadas:hover {
+  opacity: .8;
+  background-color: #8d4a6d;
+}
+
+.btnAceptadas:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 4px #0003;
+}
+
+.imgLogo {
+  width: auto;
+  height: 70px;
+}
+
+h3 {
+  color: #fff;
+  src: url("AvenirLTStd-Book.a6bc3530.otf");
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+.divTabla {
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  display: flex;
+}
+
+.contenedorTabla {
+  width: 100%;
+  max-width: 1100px;
+  overflow-x: auto;
+}
+
+table {
+  color: #04082c;
+  text-align: center;
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+thead {
+  color: #fff;
+  background: #1d0c1780;
+}
+
+th {
+  text-transform: uppercase;
+  padding: 20px 15px;
+  font-weight: 700;
+}
+
+tr {
+  height: 50px;
+}
+
+td {
+  width: 100px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-bottom: 1px solid #fff3;
+  padding: 12px;
+  overflow: hidden;
+}
+
+tbody tr {
+  cursor: pointer;
+  background-color: #e3e3e3c5;
+}
+
+tbody tr:hover {
+  background: #e3e3e34f;
+}
+
+.modalEliminar {
+  src: url("AvenirLTStd-Book.a6bc3530.otf");
+  color: #04082c;
+  border-radius: 30px;
+  font-family: sans-serif;
+}
+
+.modalEliminar .swal2-title {
+  color: #04082c;
+  font-size: 18px;
+}
+
+.modalEliminar .swal2-icon.swal2-success {
+  color: #8e44ad !important;
+}
+
+.modalEliminar .swal2-popup {
+  background: #e3e3e3;
+  border: #0000;
+  padding: 20px;
+}
+
+.modalEliminado {
+  src: url("AvenirLTStd-Book.a6bc3530.otf");
+  color: #04082c;
+  font-family: sans-serif;
+}
+
+/*# sourceMappingURL=historial.6fd4baa1.css.map */

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRAR</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="../css/registrarse.css">
+</head>
+<body>
+    <header>
+        <div class="divLogo"><img class="imgLogo" src="../img/__LOGO.png" alt=""></div>
+        <div class="divTituloRegistro"><p class="textCuenta">¿Ya tienes una cuenta?</p></div>
+        <div  class="divBtnIniciarSesión"><button  class="btnIniciarSesión" id="btnIniciarSesión">Inicia sesión</button></div>
+    </header>
+    <br><br><br>
+
+<div class="contenedor">
+    <img class="cuadroRegistro" src="../img/__cuadroRegistro.png" alt="">
+</div>
+    <div class="contenedorInfo">
+            <div class="divInputDatos">
+                <input class="inputDatos" id="nombre" type="text" placeholder="NOMBRE COMPLETO">
+            <br>
+            <br>
+            <input class="inputDatos" id="cedula" type="text" placeholder="CÉDULA">
+            <br>
+            <br>
+            <input class="inputDatos" id="email"  type="text"placeholder="E-MAIL">
+            <br>
+            <br>
+            <input class="inputDatos" id="contrasena" type="text"placeholder="CONTRASEÑA">
+            <br>
+            <br>
+            <select class="select" name="selectRol" id="selectRol"> 
+                <option value="" disabled selected> Selecciona un rol</option>
+                <option value="Administrador">Administrador</option>
+                <option value="Usuario">Usuario</option>
+            </select>
+        </div>
+    
+
+<br>
+<div class="boton">
+    <button id="btnRegistrar">Registrarse</button>
+
+    <p id="mensaje"></p>
+</div>
+
+</div>
+<script type="module" src="../js/registrarse.js"></script>
+
+</body>
+</html>

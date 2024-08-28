@@ -1,0 +1,121 @@
+body {
+  min-height: 115.8vh;
+  width: 100%;
+  background-image: url("fondo_login.ea8ac2b7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.contenedor {
+  width: auto;
+  height: 500px;
+  text-align: center;
+  background-position: center;
+  margin-top: -100px;
+}
+
+.cuadroLogin {
+  width: auto;
+  height: 500px;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.contenedorInfo {
+  text-align: center;
+  margin-top: -250px;
+}
+
+.divInputDatos {
+  text-align: center;
+  justify-content: center;
+  margin-top: 110px;
+}
+
+.inputDatos {
+  height: add(5rem, input-height-border);
+  padding: 1.625rem 3rem 3rem;
+  height: 40px;
+  width: 200px;
+  color: gray-300;
+  text-align: center;
+  background-color: #e3e3e3;
+  border: #0000;
+  border-radius: 50px;
+  padding-block: .625rem;
+  font-size: 16px;
+  line-height: 1.25;
+  transition: opacity .1s ease-in-out, transform .1s ease-in-out;
+  transform: scale(.85)translateY(-.5rem)translateX(.15rem);
+}
+
+.texto {
+  color: #000;
+  margin-top: -2%;
+  margin-left: 1%;
+}
+
+.boton {
+  text-align: center;
+  margin-top: 65px;
+  position: relative;
+}
+
+button {
+  src: url("AvenirLTStd-Book.a6bc3530.otf");
+  color: #04082c;
+  inline-size: 200px;
+  cursor: pointer;
+  background-color: #0000;
+  border: thin solid #04082c;
+  border-radius: 50px;
+  padding: 10px 15px;
+  font-family: sans-serif;
+  font-size: 16px;
+  transition: transform .1s, box-shadow .1s, background-color .3s, opacity .3s;
+  transform: translateY(4px);
+  box-shadow: 0 2px 4px #0003;
+}
+
+.modalUsuarioNoEncontrado {
+  src: url("AvenirLTStd-Book.a6bc3530.otf");
+  color: #04082c;
+  background-color: #dfd7d7;
+  font-family: sans-serif;
+}
+
+.modalUsuarioNoEncontrado .swal-title {
+  color: #04082c;
+  font-size: 18px;
+}
+
+.my-title {
+  src: url("AvenirLTStd-Book.a6bc3530.otf");
+  color: #04082c;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.my-popup, .modal2 {
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+.my-confirm-button {
+  color: #fff;
+  src: url("AvenirLTStd-Book.a6bc3530.otf");
+  background-color: #04082c;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.my-confirm-button:hover {
+  background-color: #04082c4f;
+}
+
+/*# sourceMappingURL=login.4cdbd4fe.css.map */

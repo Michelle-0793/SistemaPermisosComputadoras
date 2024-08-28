@@ -1,0 +1,145 @@
+body {
+  min-height: 150vh;
+  width: 100%;
+  background-image: url("fondo_login.ea8ac2b7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+header {
+  width: auto;
+  height: 110px;
+  text-align: center;
+  background-color: #04082c;
+  grid-template-columns: 300px 700px 300px;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+
+.imgLogo {
+  width: auto;
+  height: 70px;
+}
+
+.btnIniciarSesión {
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  background-color: #a5728a;
+  border: #0000;
+  border-radius: 50px;
+  font-size: 16px;
+  transition: transform .1s, box-shadow .1s, background-color .3s, opacity .3s;
+  box-shadow: 0 4px 6px #0003;
+}
+
+.btnIniciarSesión:hover {
+  opacity: .8;
+  background-color: #8d4a6d;
+}
+
+.btnIniciarSesión:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 4px #0003;
+}
+
+.textCuenta {
+  color: #fff;
+  src: url("AvenirLTStd-Book.a6bc3530.otf");
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.divTituloRegistro {
+  justify-content: flex-end;
+  align-items: end;
+  margin-right: -40px;
+  display: flex;
+}
+
+.contenedor {
+  width: auto;
+  height: 500px;
+  text-align: center;
+  background-position: center;
+  margin-top: -100px;
+}
+
+.cuadroRegistro {
+  width: auto;
+  height: 600px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.contenedorInfo {
+  text-align: center;
+  margin-top: -400px;
+}
+
+.divInputDatos {
+  text-align: center;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+.inputDatos {
+  height: add(5rem, input-height-border);
+  padding: 1.625rem 3rem 3rem;
+  height: 30px;
+  width: 200px;
+  color: gray-300;
+  text-align: center;
+  background-color: #e3e3e3;
+  border: #0000;
+  border-radius: 50px;
+  padding-block: .625rem;
+  font-size: 16px;
+  line-height: 1.25;
+  transition: opacity .1s ease-in-out, transform .1s ease-in-out;
+  transform: scale(.85)translateY(-.5rem)translateX(.15rem);
+}
+
+.select {
+  height: 50px;
+  width: 295px;
+  color: gray-300;
+  src: url("AvenirLTStd-Book.a6bc3530.otf");
+  text-align: center;
+  background-color: #e3e3e3;
+  border: #0000;
+  border-radius: 50px;
+  font-family: sans-serif;
+  font-size: 16px;
+  transition: opacity .1s ease-in-out, transform .1s ease-in-out;
+  transform: scale(.85)translateY(-.5rem)translateX(.15rem);
+}
+
+.boton {
+  text-align: center;
+  margin-top: 28px;
+  position: relative;
+}
+
+button {
+  src: url("AvenirLTStd-Book.a6bc3530.otf");
+  color: #04082c;
+  inline-size: 200px;
+  cursor: pointer;
+  background-color: #0000;
+  border: thin solid #04082c;
+  border-radius: 50px;
+  padding: 10px 15px;
+  font-family: sans-serif;
+  font-size: 16px;
+  transition: transform .1s, box-shadow .1s, background-color .3s, opacity .3s;
+  transform: translateY(4px);
+  box-shadow: 0 2px 4px #0003;
+}
+
+/*# sourceMappingURL=registrarse.185a48b8.css.map */

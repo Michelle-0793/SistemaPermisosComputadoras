@@ -1,0 +1,135 @@
+body{
+    margin: 0px;
+    background-image: url(../img/fondo_login.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 115.8vh; /* Para que el fondo cubra al menos la altura de la ventana gráfica */
+    width: 100%;
+}
+.contenedor{
+    width: auto;
+    height: 500px;
+    margin-top: -100px;
+    background-position: center;
+    text-align: center;
+}
+.cuadroLogin{
+    width: auto;
+    height: 500px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 150px;
+}
+.contenedorInfo{
+    text-align:center;
+    margin-top: -250px;
+
+}
+.divInputDatos{
+    margin-top: 110px;
+    text-align: center;
+    justify-content: center;
+
+
+}
+.inputDatos{
+    height:add(5rem, input-height-border);
+    line-height:1.25;
+    padding:3rem;
+    padding-top:1.625rem;
+    padding-block:.625rem;
+    height:40px;
+    width: 200px;
+    transform:scale(.85) translateY(-.5rem) translateX(.15rem);
+    color:gray-300;
+    transition: opacity .1s ease-in-out, transform .1s ease-in-out;
+    font-size: 16px;
+    border-radius: 50px;
+    border: transparent;
+    background-color: #E3E3E3;  
+    text-align: center; 
+}
+
+.texto{
+    color: black;
+    margin-top: -2%;
+    margin-left: 1%;
+}
+
+.boton{
+    position: relative;
+    margin-top: 65px;
+    text-align: center;
+}
+
+button{
+    font-family: sans-serif;
+    src: url(../font/AvenirLTStd-Book.otf);
+    color: #04082c;
+    font-size: 16px;
+    background-color: transparent;
+    border: solid thin #04082c;
+    inline-size: 200px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.1s, box-shadow 0.1s, background-color 0.3s, opacity 0.3s; /* Transiciones suaves para el efecto */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+  
+}
+
+button{
+    transform: translateY(4px); /* Efecto de hundimiento */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra más pequeña al presionar */
+}
+
+/*ESTILOS MODAL*/
+
+.modalUsuarioNoEncontrado{
+    font-family: sans-serif;
+    src: url(../font/AvenirLTStd-Book.otf);
+    color: #04082c; /* Cambia el color del texto */
+    background-color: #dfd7d7; /* Cambia este color por el que prefieras */
+  }
+
+  .modalUsuarioNoEncontrado .swal-title {
+    font-size: 18px; /* Cambia el tamaño del título */
+    color: #04082c; /* Cambia el color del título */
+  }
+
+  /*MODALES*/
+.my-title {
+    font-family: sans-serif;
+    src: url(../font/AvenirLTStd-Book.otf);
+    font-size: 18px;
+    color: #04082c;
+}
+
+/* Personaliza el estilo del popup */
+.my-popup {
+    background-color: #ffffff;
+    border-radius: 30px; /* Ajusta el radio de las esquinas */
+}
+
+/* Personaliza el estilo del popup */
+.modal2{
+    background-color: #ffffff;
+    border-radius: 30px; /* Ajusta el radio de las esquinas */
+}
+/* Personaliza el botón de confirmación */
+.my-confirm-button {
+    background-color: #04082c;
+    color: #fff;
+    font-family: sans-serif;
+    src: url(../font/AvenirLTStd-Book.otf);
+    font-size: 14px; 
+    padding: 10px 20px;
+    border-radius: 5px; 
+}
+
+/* Cambiar el color del botón cuando se coloca el cursor encima */
+.my-confirm-button:hover {
+    background-color: #04082c4f;
+}
+  
