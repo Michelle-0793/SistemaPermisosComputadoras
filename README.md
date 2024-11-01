@@ -10,7 +10,7 @@ Este proyecto gestiona permisos para el uso de computadoras académicas en una i
 
 3. **Solicitud de Permisos**: Los usuarios pueden realizar solicitudes de uso de computadoras indicando fechas y sede. Los administradores pueden aprobar o rechazar estas solicitudes. 
 
-##Tecnologías: 
+## Tecnologías 
 - JavaScript (ES6)
 - HTML5 y CSS3
 - SweetAlert para las notificaciones
